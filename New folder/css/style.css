@@ -113,8 +113,8 @@ body:after{
 }
 header{
 	background-color: #5D001E;
-	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-top: 25px;
+	padding-bottom: 5px;
 }
 header a#main-category-toggler{
 	color: #FFF;
@@ -138,34 +138,10 @@ header a#main-category-toggler-close{
 	width: 40px;
 	margin-top: 8px;
 }
-
-header .dropdown {
-	margin-top: 12px;
-}
-
-#topmenu {
-	background-color: #87002B;
-	height: 40px;
-	border-top-left-radius: 8px;
-	border-top-right-radius: 8px
-}
-
-#topmenu ul {
-	margin-left: 25px;;
-}
-
 #logo{
+	width: 50%;
 	float: left;
-}
-
-#logo img {
-	margin-top: 3px;
-	border-radius: 10px;
-	padding: 9px 5px;
-}
-
-#logo a :hover {
-	background-color: #680021;
+	margin-right: 40px;
 }
 
 #logo1{
@@ -187,19 +163,6 @@ header .dropdown {
 	padding-bottom: 0px;
 	padding-left: 0px;
 }
-
-.cta-buttons img {
-	height: 85px;
-	padding: 7px;
-	margin: 0 30px;
-	background: linear-gradient(to bottom, #5D001E, #87002B, #87002B, #5D001E);
-	border-radius: 10px;
-}
-
-.cta-buttons img:hover {
-	background: linear-gradient(to bottom, #87002B, #5D001E, #5D001E, #87002B);
-}
-
 ::-webkit-input-placeholder {
 	font-family: 'Roboto', sans-serif;
 	font-size: 14px;
@@ -306,7 +269,7 @@ header ul.top-menu li a{
 	padding-left: 0px;
 }
 header ul.top-menu li a:hover{
-	color: red;
+	color: #fab318;
 }
 header ul.notifications{
 	text-align: center;
